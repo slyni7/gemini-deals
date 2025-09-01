@@ -223,7 +223,7 @@
       const msg = (document.getElementById('msg')||{}).value || '';
       const subject = encodeURIComponent('[도매 문의] Gemini 12개월 이용권');
       const body = encodeURIComponent(`이름/회사: ${name}\n이메일: ${email}\n내용:\n${msg}`);
-      window.location.href = `mailto:jhijung70@naver.com?subject=${subject}&body=${body}`;
+      window.location.href = "mailto:jhijung70@naver.com?subject=${subject}&body=${body}";
     });
   </script>
 </body>
